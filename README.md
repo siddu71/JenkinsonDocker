@@ -1,4 +1,5 @@
 # JenkinsonDocker (ubuntu/64bit)
+This setup shows how to install jenkins in a docker container.
 
 reference : https://octopus.com/blog/jenkins-docker-install-guide
 
