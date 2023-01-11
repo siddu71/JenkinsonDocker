@@ -6,6 +6,8 @@ reference : https://octopus.com/blog/jenkins-docker-install-guide
 # 1. Install Docker : 
 
 ```
+sudo apt-get update
+sudu apt-get upgrade
 sudo apt install docker.io
 ```
 
