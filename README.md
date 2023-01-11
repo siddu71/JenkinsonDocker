@@ -24,10 +24,10 @@ Docker ps -a
 # 5. Check docker logs to find initial password or navigate to /var/jenkins_home/secrets/initialAdminPassword
 
 ```
-Docker logs [Container ID] 
+docker logs [Container ID] 
 ```
 ```
-Docker exec -it [Container ID] bash
+docker exec -it [Container ID] bash
 
 cd /var/jenkins_home/secrets/
 
