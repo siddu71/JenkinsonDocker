@@ -51,3 +51,4 @@ Setup the user details.
 ![image](https://user-images.githubusercontent.com/52039971/198523829-f1e00662-ec49-462e-a6ab-a53a3806872a.png)
 
 
+Note: Add 8080 to inbound rules to access the server from browser.
