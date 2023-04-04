@@ -1,13 +1,22 @@
 # JenkinsonDocker (ubuntu/64bit)
 This setup shows how to install jenkins in a docker container.
 
+```
+sudo apt-get update -y
+sudu apt-get upgrade -y
+sudo apt install docker.io
+sudo chmod 777 /var/run/docker.sock
+sudo docker network create jenkins
+sudo docker run -d --restart=on-failure -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
+```
+
 reference : https://octopus.com/blog/jenkins-docker-install-guide
 
 # 1. Install Docker : 
 
 ```
-sudo apt-get update
-sudu apt-get upgrade
+sudo apt-get update -y
+sudu apt-get upgrade -y
 sudo apt install docker.io
 ```
 
