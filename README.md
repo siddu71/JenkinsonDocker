@@ -2,11 +2,13 @@
 This setup shows how to install jenkins in a docker container.
 
 ```
-sudo apt-get update -y
+#!/bin/bash
 
-sudu apt-get upgrade -y
+sudo apt update -y
 
-sudo apt install docker.io
+#sudo apt install default-jre -y
+
+sudo apt install docker.io -y
 
 sudo chmod 777 /var/run/docker.sock
 
